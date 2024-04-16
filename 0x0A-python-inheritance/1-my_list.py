@@ -1,10 +1,14 @@
 #!/usr/bin/python3
-"""  New class """
+'''A module containing a list subclass.
+'''
 
 
 class MyList(list):
-    """ Mylist class that inherist from list """
-
+    '''A list subclass.
+    '''
     def print_sorted(self):
-        """ Fucntion that prints a sorted list """
-        print(sorted(self))
+        '''Prints this list in a sorted order.
+        '''
+        list_sorted = sorted(self)
+        print(list_sorted)
+        del list_sorted
