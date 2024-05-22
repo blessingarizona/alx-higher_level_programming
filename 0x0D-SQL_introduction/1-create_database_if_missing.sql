@@ -1,2 +1,2 @@
 -- Script to create a database
-CREATE Database hbtn_0cI_0;
+CREATE DATABASE IF NOT EXISTS hbtn_0cI_0;
