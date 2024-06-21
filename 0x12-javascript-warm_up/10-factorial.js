@@ -1,5 +1,4 @@
 #!/usr/bin/node
-
 function factorial (num) {
     if (num === 0 || !Number(num)) {
       return 1;
@@ -8,4 +7,3 @@ function factorial (num) {
     }
   }
   console.log(factorial(Number(process.argv[2])));
-
